@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(104, 198, 235);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: grid;
+}
+
+.todillo{
+    width: 100%;
+    margin: 75px;
+    min-height: 1000px;
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}       
+
+.arriba{
+    position: relative;
+    top: -600px;
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    background-color: rgb(160, 100, 255);
+}
+
+.fotoperfil{
+    position: relative;
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+
+}
+
+
+.Textoarriba{
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 990px;
+}
