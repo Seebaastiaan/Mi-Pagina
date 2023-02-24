@@ -4,7 +4,8 @@ body{
     justify-content: center;
     min-height: 100vh;
     min-width: 100vh;
-    display: grid;
+    display: flex;
+
 }
 
 .todillo{
@@ -107,7 +108,7 @@ body{
 
 .abajo li {
     list-style: none;
-    margin:10px;
+    margin:15px;
     color: rgb(0, 0, 0);
     cursor: pointer;
     display: flex;
@@ -123,7 +124,7 @@ body{
     display: flex;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 224px;
+    top: 254px;
     left: 60px;
     font-size: 18px;
     font-family: monospace; 
@@ -133,16 +134,30 @@ body{
     letter-spacing: 0.1em;
 }
 
-.abajo .educacion  {
+.abajo .datosac{
+    min-width: 200px;
+    max-height: 400px;
+    position: relative;
+    left: 59px;
+    top: 290px;
+}
+
+.datosac .educacion ul{
     display: flex;
     flex-direction: column;
     position: relative;
-    list-style: none;
-    top: 124px;
-    max-height: 90px;
-   
 }
 
+.datosac .lieducacion {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 58px;
+    bottom: 88px;
+    min-width: 180px;
+    cursor: unset;
+    
+}
 .abajo h5{
     color: #76bbcc;
 }
@@ -156,10 +171,4 @@ body{
 .abajo h6{
     font-size: 1em;
     margin: 24px 0;
-}
-
-.abajo .educacion li{
-    margin: -10px;
-    position: relative;
-    left: 36px;
 }
