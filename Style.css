@@ -3,25 +3,25 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vh; 
     display: flex;
 
 }
 
 .todillo{
     margin: 50px;
+    min-height: 1200px;
     width: 100%;
-    min-height: 1500px;
     width: 1000px;
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }       
 
 .arriba{
     position: relative;
-    top: -630px;
+    top: -530px;
     left: 500px;
     min-width: 1000px;
     min-height: 270px;
@@ -76,13 +76,13 @@ body{
 }
 
 .abajo {
-    background-color: rgb(240, 237, 237);
+    background-color: rgb(255, 255, 255);
     position: relative;
     display: flex;
-    top: 157px;
     min-width: 1000px;
-    min-height: 1300px;
+    min-height: 800px;
     right: 500px;
+    top: 100px;
 }
 
 .abajo .contacto {
@@ -171,4 +171,36 @@ body{
 .abajo h6{
     font-size: 1em;
     margin: 24px 0;
+}
+
+.abajo .objetivo{
+    position: relative;
+    height: 1000px;
+    width: 590px;
+    left: 210px;
+    background-color: rgb(255, 255, 255);
+}
+
+.objetivotexto{
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 24px;
+    left: 60px;
+    font-size: 18px;
+    font-family: monospace; 
+    border-left: 5px solid #76bbcc;
+    line-height: 1em;
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+}
+
+.objetivo p {
+    color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    margin-right: 100px;
+    top: 48px;
+    left: 69px;
+    font-size: 20px;
 }
