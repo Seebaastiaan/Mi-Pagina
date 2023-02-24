@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(177, 189, 194);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: grid;
+}
+
+.todillo{
+    margin: 50px;
+    width: 100%;
+    min-height: 1500px;
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}       
+
+.arriba{
+    position: relative;
+    top: -630px;
+    left: 500px;
+    min-width: 1000px;
+    min-height: 270px;
+    display: flex;
+    background-color: #76bbcc;
+}
+
+.fotoperfil{
+    display: flex;
+    align-items: flex-start;
+    margin: 27px;
+    height: 220px;
+    width: 220px;
+    border: 16px;
+    border-radius: 50%;
+}
+
+.arriba h1{
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 260px;
+    top: 24px;
+    font-size: 38px;
+    font-family: monospace;
+    font-weight: bold;
+
+    
+}
+
+.arriba h3{
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 260px;
+    top: 145px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+.arriba p {
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 260px;
+    top: 165px;
+    font-size: 18px;
+    font-family: monospace; 
+
+}
+
+.abajo {
+    background-color: rgb(240, 237, 237);
+    position: relative;
+    display: flex;
+    top: 157px;
+    min-width: 1000px;
+    min-height: 1300px;
+    right: 500px;
+}
+
+.abajo .contacto {
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 24px;
+    left: 60px;
+    font-size: 18px;
+    font-family: monospace; 
+    border-left: 5px solid #76bbcc;
+    line-height: 1em;
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+}
+
+.abajo ul{
+    position: absolute;
+    top: 59px;
+    list-style: none;
+    margin: 10px
+}
+
+.abajo li {
+    list-style: none;
+    margin:10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+}
+
+.abajo ion-icon{
+    font-size: 1.3em;
+    margin-right: 10px;
+    color: #76bbcc;
+}
+
+.abajo .academica{
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 224px;
+    left: 60px;
+    font-size: 18px;
+    font-family: monospace; 
+    border-left: 5px solid #76bbcc;
+    line-height: 1em;
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+}
+
+.abajo .educacion  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    list-style: none;
+    top: 124px;
+    max-height: 90px;
+   
+}
+
+.abajo h5{
+    color: #76bbcc;
+}
+
+.abajo h4{
+    color: black;
+    font-weight: 500;
+    margin: -19px 0;
+}
+
+.abajo h6{
+    font-size: 1em;
+    margin: 24px 0;
+}
+
+.abajo .educacion li{
+    margin: -10px;
+    position: relative;
+    left: 36px;
+}
