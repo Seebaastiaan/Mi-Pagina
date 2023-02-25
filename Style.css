@@ -204,3 +204,156 @@ body{
     left: 69px;
     font-size: 20px;
 }
+
+.Lenguaje{
+    min-width: 200px;
+    max-height: 200px;
+    position: relative;
+    left: -724px;
+    top: 730px;
+    background-color:rgb(255, 255, 255); 
+}
+
+.Lenguaje .lenguajetitu{
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 18px;
+    font-family: monospace; 
+    border-left: 5px solid #76bbcc;
+    line-height: 1em;
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+
+}
+
+.Lenguaje li{
+    flex-direction: column;
+    cursor: unset;
+}
+
+.Lenguaje li span{
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    left: -47px;
+    top: -24px;
+}
+
+.Lenguaje .percent{
+    position: relative;
+    width: 250px;
+    background: #9e9b9b;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px ;
+    display: block;
+    overflow: hidden;
+
+}
+
+.Lenguaje .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #76bbcc;
+}
+
+.Lenguaje .textolang{
+    font-size: 18px;
+    font-family: monospace; 
+
+}
+
+.apitudes{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 400px;
+    top: 250px;
+    right: 75px;
+}
+
+.apitudes .apitudestexto{
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 18px;
+    font-family: monospace; 
+    border-left: 5px solid #76bbcc;
+    line-height: 1em;
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+}
+ .apitudes p{
+    color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    top: 30px;
+    font-size: 20px;
+    margin-left: 6px;
+ }
+
+ .skills{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top: 550px;
+    right: 75px;
+ }
+ .skills .habilidad{
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 18px;
+    font-family: monospace; 
+    border-left: 5px solid #76bbcc;
+    line-height: 1em;
+    padding-left: 10px;
+    letter-spacing: 0.1em;
+ }
+ .skills .textoskill{
+    font-size: 24px;
+    font-family: monospace; 
+}
+
+.skills li{
+    flex-direction: column;
+    cursor: unset;
+}
+
+.skills li span{
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    left: -47px;
+    top: -24px;
+}
+
+.skills .percent{
+    position: relative;
+    width: 250px;
+    background: #9e9b9b;
+    height: 10px;
+    margin-top: -16px;
+    margin-bottom: 24px ;
+    margin-left: 68px;
+    display: block;
+    overflow: hidden;
+
+}
+
+.skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #76bbcc;
+}
+
+.skills p{
+    position: relative;
+    top: 250px;
+}
