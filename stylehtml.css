@@ -13,20 +13,6 @@ h2{ font-size: 3.7em;}
 h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
 
-button{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px  40px;
-    border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: white;
-    background-color: rgb(227,76,36);
-}
-
-button:hover{
-    background-color: rgb(145, 53, 28);;
-}
 header .logoHTML{
     max-width: 85px;
     max-height: 85px;
@@ -201,6 +187,7 @@ header a:hover{
     #historia .containerhistoria{
         display: flex;
         justify-content: space-evenly;
+        padding: 300px 12px;
     }
 
     #historia .img-historia{
@@ -232,6 +219,7 @@ header a:hover{
 #ques .containerques{
     display: flex;
     justify-content: space-evenly;
+    padding: 300px 12px;
 }
 
 #ques .img-ques{
@@ -259,6 +247,7 @@ header a:hover{
 #sirve .containersirve{
     display: flex;
     justify-content: space-evenly;
+    padding: 300px 12px;
 }
 
 #sirve .img-sirve{
@@ -286,6 +275,7 @@ header a:hover{
 #etiqueta .containeretiqueta{
     display: flex;
     justify-content: space-evenly;
+    padding: 300px 12px;
 }
 
 #etiqueta .img-etiqueta{
